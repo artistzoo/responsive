@@ -11,6 +11,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding: 70px;
+  overflow-x: hidden;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   background-color: #F4F1EC;
   line-height: 1.5;
   transform: none; 
+  overflow-x: hidden;
 }
 li {
   list-style: none;
