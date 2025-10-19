@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Aritaburi";
-  src: url("/fonts/Arita-buri-Light.woff2") format("woff2"),
-    url("/fonts/Arita-buri-Light.ttf") format("truetype");
+  font-family: "AritaburiKR";
+  src: url("../fonts/AritaBuriKR-Light.woff2") format("woff2"),
+    url("../fonts/AritaBuriKR-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,9 +9,9 @@
 
 /* Medium (500) */
 @font-face {
-  font-family: "Aritaburi";
-  src: url("/fonts/Arita-buri-Medium.woff2") format("woff2"),
-    url("/fonts/Arita-buri-Medium.ttf") format("truetype");
+  font-family: "AritaburiKR";
+  src: url("../fonts/AritaBuriKR-Medium.woff2") format("woff2"),
+    url("../fonts/AritaBuriKR-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,9 +19,9 @@
 
 /* SemiBold (600) */
 @font-face {
-  font-family: "Aritaburi";
-  src: url("/fonts/Arita-buri-SemiBold.woff2") format("woff2"),
-    url("/fonts/Arita-buri-SemiBold.ttf") format("truetype");
+  font-family: "AritaburiKR";
+  src: url("../fonts/AritaBuriKR-SemiBold.woff2") format("woff2"),
+    url("../fonts/AritaBuriKR-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -29,16 +29,16 @@
 
 /* Bold (700) */
 @font-face {
-  font-family: "Aritaburi";
-  src: url("/fonts/Arita-buri-Bold.woff2") format("woff2"),
-    url("/fonts/Arita-buri-Bold.ttf") format("truetype");
+  font-family: "AritaburiKR";
+  src: url("../fonts/AritaBuriKR-Bold.woff2") format("woff2"),
+    url("../fonts/AritaBuriKR-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 * {
-  font-family: "Aritaburi", serif;
+  font-family: "AritaburiKR", serif;
   transition: 0.5s;
 }
 /* goto-top-----------------*/
