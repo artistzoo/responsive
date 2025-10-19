@@ -345,6 +345,11 @@ justify-content: center;
   width: 60%;
   max-width: 60rem;
 }
+/* section1 */
+.sec1_inner{
+  width: 100%;
+  max-width: 130rem;
+}
 /* section2 */
 .sec2_box1,
 .sec2_box2,
@@ -431,6 +436,8 @@ justify-content: center;
 #sec5 h5{
   font-size: 1.4rem;
   line-height: 2.8rem;
+  width: 100%;
+  max-width: 130rem;
 }
   .sec5_inners{
     flex-direction: column;
