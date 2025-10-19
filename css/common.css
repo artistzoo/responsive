@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Aritaburi';
-  src: url('/fonts/Arita-buri-Light.woff2') format('woff2'),
-        url('/fonts/Arita-buri-Light.ttf') format('truetype');
+  font-family: "Aritaburi";
+  src: url("/fonts/Arita-buri-Light.woff2") format("woff2"),
+    url("/fonts/Arita-buri-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,9 +9,9 @@
 
 /* Medium (500) */
 @font-face {
-  font-family: 'Aritaburi';
-  src: url('/fonts/Arita-buri-Medium.woff2') format('woff2'),
-        url('/fonts/Arita-buri-Medium.ttf') format('truetype');
+  font-family: "Aritaburi";
+  src: url("/fonts/Arita-buri-Medium.woff2") format("woff2"),
+    url("/fonts/Arita-buri-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -19,9 +19,9 @@
 
 /* SemiBold (600) */
 @font-face {
-  font-family: 'Aritaburi';
-  src: url('/fonts/Arita-buri-SemiBold.woff2') format('woff2'),
-        url('/fonts/Arita-buri-SemiBold.ttf') format('truetype');
+  font-family: "Aritaburi";
+  src: url("/fonts/Arita-buri-SemiBold.woff2") format("woff2"),
+    url("/fonts/Arita-buri-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -29,40 +29,43 @@
 
 /* Bold (700) */
 @font-face {
-  font-family: 'Aritaburi';
-  src: url('/fonts/Arita-buri-Bold.woff2') format('woff2'),
-        url('/fonts/Arita-buri-Bold.ttf') format('truetype');
+  font-family: "Aritaburi";
+  src: url("/fonts/Arita-buri-Bold.woff2") format("woff2"),
+    url("/fonts/Arita-buri-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-*{
-  font-family: 'Aritaburi', serif;
+* {
+  font-family: "Aritaburi", serif;
   transition: 0.5s;
 }
 /* goto-top-----------------*/
-.scrollTop_btn_pc{
+.scrollTop_btn_pc {
   position: fixed;
   right: 3rem;
   bottom: 15rem;
   width: 5rem;
   height: 5rem;
-  background: url(../image/goto2.png)no-repeat center/contain;
-  background-color: #F4F1EC;
-  transition:opacity 0.25s;
+  background: url(../image/goto2.png) no-repeat center/contain;
+  background-color: #f4f1ec;
+  transition: opacity 0.25s;
   z-index: 1200;
   opacity: 0;
   pointer-events: none;
   border-radius: 50%;
-  border: 0.15rem solid #F4F1EC;
+  border: 0.15rem solid #f4f1ec;
   text-indent: -9999px;
 }
-.scrollTop_btn_pc.show{opacity: 1; pointer-events: auto;}
-.scrollTop_btn_pc:hover{
-  background: url(../image/goto1.png)no-repeat center/contain;
-  background-color: #F4F1EC;
+.scrollTop_btn_pc.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.scrollTop_btn_pc:hover {
+  background: url(../image/goto1.png) no-repeat center/contain;
+  background-color: #f4f1ec;
   transition: background-color 0.35s;
-  border: 0.15rem solid #F4F1EC;
+  border: 0.15rem solid #f4f1ec;
   border-radius: 50%;
 }
