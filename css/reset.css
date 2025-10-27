@@ -7,14 +7,13 @@
   box-sizing: border-box;
 }
 
-html {
+html{
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding: 70px;
   overflow-x: hidden;
 }
 
-body {
+body{
   font-family: "NanumSquareAc", sans-serif;
   overflow-x: hidden;
   background-color: #F4F1EC;
@@ -22,21 +21,21 @@ body {
   transform: none; 
   overflow-x: hidden;
 }
-li {
+li{
   list-style: none;
 }
 
-table {
+table{
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-a {
+a{
   text-decoration: none;
   color: inherit;
 }
 
-img {
+img{
   height: auto;
   display: block;
 }

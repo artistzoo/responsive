@@ -114,14 +114,14 @@ header.mOpen:after{
   position: absolute;
   top: 0;
 }
-.sec1_inner{margin-top: 2rem;}
+.sec1_inner{margin-top: 3rem;}
 .sec1_inner b,
 .sec1_inner p{
   display: block;
   margin: 0 2rem;
   font-size: 1.7rem;
   text-align: center;
-  line-height: 3rem;
+  line-height: 2.7rem;
 }
 video{
   margin-top: 5rem;
@@ -333,6 +333,7 @@ justify-content: center;
   height: 15rem;
   padding-top: 2rem;
 }
+.sec5_inner:nth-child(3){margin-top: -2rem;}
 .sec5_inner b{
   margin-top: 10rem;
   font-size: 1.8rem;
@@ -383,7 +384,7 @@ justify-content: center;
 }
 .sec2_img{
   border: none;
-  width: 4rem;
+  width: 3.5rem;
   margin-right: 1.5rem;
 }
 .sec2_box2 .sec2_img img{margin-bottom: 5.5rem;}
@@ -397,8 +398,8 @@ justify-content: center;
   color: #47624F;
 }
 .sec2_img img{
-  width: 3.5rem;
-  height: 23rem;
+  width: 3.2rem;
+  height: 22rem;
   margin: auto;
 }
 
