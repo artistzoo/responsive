@@ -118,7 +118,7 @@ header.mOpen:after{
 .sec1_inner b,
 .sec1_inner p{
   display: block;
-  margin: 0 3rem;
+  margin: 0 2rem;
   font-size: 1.7rem;
   text-align: center;
   line-height: 3rem;
@@ -317,7 +317,7 @@ justify-content: center;
 }
 .sec5_inners{
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 .sec5_inner{
   width: 100%;
@@ -383,7 +383,8 @@ justify-content: center;
 }
 .sec2_img{
   border: none;
-  width: 10rem;
+  width: 6rem;
+  margin-right: 1.5rem;
 }
 .sec2_box2 .sec2_img img{margin-bottom: 5.5rem;}
 .sec2_img b{
