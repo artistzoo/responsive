@@ -376,7 +376,6 @@ justify-content: center;
   height: 35rem;
   position: relative;
 }
-
 .sec2_box2{
   display: flex;
   flex-direction: row;
@@ -388,13 +387,14 @@ justify-content: center;
   width: 3.5rem;
   margin-right: 2rem;
 }
-.sec2_box2 .sec2_img img{margin-bottom: 6.7rem;}
+.sec2_box2 .sec2_img img{margin-bottom: 7.2rem;}
 .sec2_img b{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 4rem;
+  padding-top: 0.3rem;
   border: 1px solid #47624F;
   color: #47624F;
 }
@@ -421,7 +421,7 @@ justify-content: center;
 .sec2_box1_inner p,
 .sec2_box2_inner p,
 .sec2_box3_inner p{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: left;
   line-height: 2.2rem;
